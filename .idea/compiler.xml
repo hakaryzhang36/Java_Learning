@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="java-basic-sample" />
+        <module name="worker-spring-boot-starter" />
+        <module name="spring-sample" />
+        <module name="springboot-auto-configuration" />
+        <module name="SSM-template" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-basic-sample" target="1.8" />
+      <module name="spring-sample" target="1.8" />
+      <module name="springboot-auto-configuration" target="17" />
+      <module name="SSM-template" target="1.6" />
+      <module name="worker-spring-boot-starter" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-sample" options="-parameters" />
+      <module name="springboot-auto-configuration" options="-parameters" />
+      <module name="worker-spring-boot-starter" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 定义属性，以及从 spring 配置文件中获取属性 -->
+    <properties resource="application.properties">
+        <property name="username" value="root"/>
+        <property name="password" value="123456"/>
+    </properties>
+    <!-- 配置环境 -->
+    <environments default="development">
+        <environment id="development">
+            <!-- 事务管理器类型，一般 JDBC 表示事务交由 JDBC 驱动管理事务 -->
+            <transactionManager type="JDBC"/>
+            <!-- 数据源配置 -->
+            <dataSource type="POOLED">
+                <!-- 从 spring 配置文件中动态获取 -->
+                <property name="driver" value="${datasource.driver}"/>
+                <property name="url" value="${datasource.url}"/>
+                <!-- 从 property 标签中动态获取 -->
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 指定 mapper xml 路径 -->
+    <mappers>
+        <mapper resource="mappers/turtles-mapper.xml"/>
+    </mappers>
+</configuration>

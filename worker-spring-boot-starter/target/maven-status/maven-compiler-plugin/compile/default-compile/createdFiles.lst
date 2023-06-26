@@ -1,0 +1,5 @@
+com\hakaryzhang\WorkerConfiguration.class
+com\hakaryzhang\WorkerImportSelector.class
+com\hakaryzhang\exported\Worker.class
+com\hakaryzhang\SpringbootStarterDemoApplication.class
+com\hakaryzhang\EnableWorker.class

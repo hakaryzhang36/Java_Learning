@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hakaryzhang.springsample.mapper.TurtlesMapper">
+
+    <resultMap id="TurtleVoResultMap" type="com.hakaryzhang.springsample.vo.TurtleVo">
+        <result property="turtleId" column="turtle_id" />
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+    </resultMap>
+
+    <insert id="addTurtle" parameterType="com.hakaryzhang.springsample.vo.TurtleVo">
+        insert into turtles (turtle_id, name, sex)
+        values (#{turtleId}, #{name}, #{sex})
+    </insert>
+
+    <select id="getAllTurtles" resultMap="TurtleVoResultMap">
+        select * from turtles
+    </select>
+</mapper>

@@ -1,2 +1,0 @@
-# Java Learning
-abcdefghijklmn

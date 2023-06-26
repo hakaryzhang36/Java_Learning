@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3f93375-2815-456b-a8a1-2d72306e205b" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/ExampleCode/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExampleCode/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExampleCode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExampleCode/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExampleCode/ExampleCode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExampleCode/lambda-expression/lambda-expression.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExampleCode/lambda-expression/src/com/hakaryzhang/example/Example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/helloworld-app/helloworld-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/helloworld-app/src/com/hakaryzhang/hello/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/helloworld-app/src/com/hakaryzhang/hello/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/out/production/helloworld-app/com/hakaryzhang/hello/HelloWorld$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/out/production/helloworld-app/com/hakaryzhang/hello/HelloWorld$Cake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/out/production/helloworld-app/com/hakaryzhang/hello/HelloWorld$CakeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/out/production/helloworld-app/com/hakaryzhang/hello/HelloWorld$Cashier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/out/production/helloworld-app/com/hakaryzhang/hello/HelloWorld$MoneyChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/out/production/helloworld-app/com/hakaryzhang/hello/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/out/production/helloworld-app/com/hakaryzhang/hello/Test.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../Software/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RkQNatOukzUqa5OgBKzJpHDnDX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/learn-java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.42643678",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.SpringSampleApplication">
+    <configuration name="SpringSampleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-sample" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hakaryzhang.springsample.SpringSampleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootAutoConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-auto-configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hakaryzhang.SpringbootAutoConfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootStarterDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="worker-spring-boot-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hakaryzhang.SpringbootStarterDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c3f93375-2815-456b-a8a1-2d72306e205b" name="变更" comment="" />
+      <created>1687791563150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687791563150</updated>
+      <workItem from="1687791564291" duration="149000" />
+      <workItem from="1687791936586" duration="85000" />
+      <workItem from="1687792032867" duration="119000" />
+      <workItem from="1687792162534" duration="59000" />
+      <workItem from="1687792263354" duration="280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/learn-java" />
+    </ignored-roots>
+  </component>
+</project>
